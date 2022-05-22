@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('docker hub') {
+        stage('start') {
             steps {
                 echo "hello world"
             }
